@@ -1,0 +1,94 @@
+('Input URL', 'www.roadbang.com')
+[1;31m
+   _________ __          __ __
+  /   _____//  |________|__|  | __ ___________
+  \_____  \\   __\_  __ \  |  |/ // __ \_  __ \
+  /        \|  |  |  | \/  |    <\  ___/|  | \/
+ /_______  /|__|  |__|  |__|__|_ \\___  >__|
+         \/                     \/    \/[1;m
+[93m[!][0m IP Address : 107.180.56.152
+[93m[!][0m Server: Apache
+[93m[!][0m Powered By: PHP/5.4.45
+[1;31m[-][1;m Clickjacking protection is not in place.
+[93m[!][0m www.roadbang.com doesn't seem to use a CMS
+[1;32m[+][1;m Honeypot Probabilty: 30%
+[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m
+[1;32m[+][1;m Robots.txt retrieved
+# If the Joomla site is installed within a folder such as at
+# e.g. www.example.com/joomla/ the robots.txt file MUST be
+# moved to the site root at e.g. www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to the disallowed
+# path, e.g. the Disallow rule for the /administrator/ folder
+# MUST be changed to read Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+
+
+[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m
+PORT     STATE    SERVICE       VERSION
+21/tcp   open     ftp           Pure-FTPd
+22/tcp   open     ssh           OpenSSH 5.3 (protocol 2.0)
+23/tcp   filtered telnet
+25/tcp   open     smtp?
+80/tcp   open     http          Apache httpd
+110/tcp  open     pop3          Dovecot pop3d
+143/tcp  open     imap          Dovecot imapd
+443/tcp  open     ssl/http      Apache httpd
+445/tcp  filtered microsoft-ds
+3389/tcp filtered ms-wbt-server
+[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m[1;31m-[1;m
+
+[1;32m[+][1;m DNS Records
+ns67.domaincontrol.com. (216.69.185.44) AS26496 GoDaddy.com, LLC United States
+ns68.domaincontrol.com. (208.109.255.44) AS26496 GoDaddy.com, LLC United States
+
+[1;32m[+][1;m MX Records
+10 (204.141.32.121) AS2639 ZOHO United States
+
+[1;32m[+][1;m MX Records
+20 (204.141.33.55) AS2639 ZOHO United States
+
+[1;32m[+][1;m Host Records (A)
+www.roadbang.comHTTP: (ip-107-180-56-152.ip.secureserver.net) (107.180.56.152) AS26496 GoDaddy.com, LLC United States
+
+[1;32m[+][1;m TXT Records
+"v=spf1 include:_spf.firebasemail.com ~all"
+"firebase=roadbangvapp"
+"v=spf1 include:zoho.com ~all"
+"globalsign-domain-verification=3ciQC[1;97m[>][1;m Initiating 3 intel modules
+[1;97m[>][1;m Loading Alpha module (1/3)
+[1;97m[>][1;m Beta module deployed (2/3)
+[1;97m[>][1;m Gamma module initiated (3/3)
+No emails found
+No hosts found
+[+] Virtual hosts:
+-----------------
+BKyhdWapKNABMR26YfHZobo7aqosPN1K4adyy"
+"firebase=rbang2016"
+"google-site-verification=0WPrsJNZhYmaSFd5HnmOUq0GAwnlZW3I8FCWMRpU-n8"
+"v=spf1 include:_spf.google.com ~all"
+
+[1;32m[+][1;m DNS Map: https://dnsdumpster.com/static/map/www.roadbang.com.png
+
+[1;97m[>][1;m Crawling the target for fuzzable URLs
+[1;31m[-][1;m No fuzzable URLs found

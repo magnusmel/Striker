@@ -1,4 +1,5 @@
 #!/usr/bin/env python2
+import sys, getopt, argparse
 import mechanize
 import socket
 from urlparse import urlparse
@@ -11,6 +12,9 @@ from plugins.DNSDumpsterAPI import DNSDumpsterAPI
 params = []
 # Browser
 br = mechanize.Browser()
+# URL INPUT from CLI
+input_url = sys.argv[1]
+print("Input URL", sys.argv[1])
 
 # Cookie Jar
 cj = cookielib.LWPCookieJar()
@@ -35,7 +39,9 @@ print '''\033[1;31m
   /        \|  |  |  | \/  |    <\  ___/|  | \/
  /_______  /|__|  |__|  |__|__|_ \\\\___  >__|
          \/                     \/    \/\033[1;m'''
-target = raw_input('\033[1;34m[?]\033[1;m Enter the target: ')
+#target = raw_input('\033[1;34m[?]\033[1;m Enter the target: ')
+target = input_url 
+
 if 'http' in target:
     parsed_uri = urlparse(target)
     domain = '{uri.netloc}'.format(uri=parsed_uri)
