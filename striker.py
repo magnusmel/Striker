@@ -112,7 +112,7 @@ def cms(domain):
         pass
 
 def honeypot(ip_addr):
-    honey = "https://api.shodan.io/labs/honeyscore/%s?key=C23OXE0bVMrul2YeqcL7zxb6jZ4pj2by" % ip_addr
+    honey = "https://api.shodan.io/labs/honeyscore/%s?key=xsnHN6abZoeZyrmnzX2slfVtzHZ2rPfd" % ip_addr
     try:
         phoney = br.open(honey).read()
         if '0.0' in phoney:
