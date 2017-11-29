@@ -1,4 +1,5 @@
 <img src='https://i.imgur.com/MDPLLbV.png' />
+FORKED TO MAGNUSMEL on 28 Nov 207
 
 # Striker
 Striker is an offensive information and vulnerability scanner.
